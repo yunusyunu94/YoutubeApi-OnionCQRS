@@ -11,13 +11,14 @@ builder.Services.AddSwaggerGen();
 
 //------------------------------------------------------------------
 
-//apsettings deki devolopment ve production lari atýrmamýz icn ;
+//apsettings.json deki devolopment ve production lari atýrmamýz icn ;
 
 var env = builder.Environment;
 builder.Configuration
 	.SetBasePath(env.ContentRootPath)
 	.AddJsonFile("appsettings.json", optional:false)
 	.AddJsonFile($"appsettings.{env.EnvironmentName}.json",optional:true);
+
 //------------------------------------------------------------------
 
 
