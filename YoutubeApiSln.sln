@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{0BECC699-7A5E-46A2-ACE9-58B8AE1FE6B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{534114B0-D3A9-41DC-8544-BB7A02C09379}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Peresentation", "Peresentation", "{FA4E7661-F6C0-462B-AEA6-78EAE55C7324}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeApi.Domein", "Core\YoutubeApi.Domein\YoutubeApi.Domein.csproj", "{29EBDBD6-B93F-4135-B356-30945BE7BF28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeApi.Application", "Core\YoutubeApi.Application\YoutubeApi.Application.csproj", "{D6198C60-7672-4A35-AF04-E6EE439EFC3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeApi.Infrastructure", "Infrastructure\YoutubeApi.Infrastructure\YoutubeApi.Infrastructure.csproj", "{CB61755E-BE57-4C20-A343-23FA70FAFFB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeApi.Persistence", "Infrastructure\YoutubeApi.Persistence\YoutubeApi.Persistence.csproj", "{BFB7F4B4-ED84-4A7D-8E04-450BC30C40D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeApi.Api", "Persistence\YoutubeApi.Api\YoutubeApi.Api.csproj", "{473BCB18-A450-4626-81B8-E80325B75DE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29EBDBD6-B93F-4135-B356-30945BE7BF28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29EBDBD6-B93F-4135-B356-30945BE7BF28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29EBDBD6-B93F-4135-B356-30945BE7BF28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29EBDBD6-B93F-4135-B356-30945BE7BF28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6198C60-7672-4A35-AF04-E6EE439EFC3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6198C60-7672-4A35-AF04-E6EE439EFC3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6198C60-7672-4A35-AF04-E6EE439EFC3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6198C60-7672-4A35-AF04-E6EE439EFC3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB61755E-BE57-4C20-A343-23FA70FAFFB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB61755E-BE57-4C20-A343-23FA70FAFFB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB61755E-BE57-4C20-A343-23FA70FAFFB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB61755E-BE57-4C20-A343-23FA70FAFFB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFB7F4B4-ED84-4A7D-8E04-450BC30C40D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFB7F4B4-ED84-4A7D-8E04-450BC30C40D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFB7F4B4-ED84-4A7D-8E04-450BC30C40D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFB7F4B4-ED84-4A7D-8E04-450BC30C40D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{473BCB18-A450-4626-81B8-E80325B75DE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{473BCB18-A450-4626-81B8-E80325B75DE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{473BCB18-A450-4626-81B8-E80325B75DE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{473BCB18-A450-4626-81B8-E80325B75DE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{29EBDBD6-B93F-4135-B356-30945BE7BF28} = {534114B0-D3A9-41DC-8544-BB7A02C09379}
+		{D6198C60-7672-4A35-AF04-E6EE439EFC3A} = {534114B0-D3A9-41DC-8544-BB7A02C09379}
+		{CB61755E-BE57-4C20-A343-23FA70FAFFB1} = {0BECC699-7A5E-46A2-ACE9-58B8AE1FE6B8}
+		{BFB7F4B4-ED84-4A7D-8E04-450BC30C40D1} = {0BECC699-7A5E-46A2-ACE9-58B8AE1FE6B8}
+		{473BCB18-A450-4626-81B8-E80325B75DE3} = {FA4E7661-F6C0-462B-AEA6-78EAE55C7324}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA3D001F-579E-485E-AE23-E03A93F4A5A1}
+	EndGlobalSection
+EndGlobal
