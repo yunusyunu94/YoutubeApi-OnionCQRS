@@ -9,15 +9,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{534114B0-D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Peresentation", "Peresentation", "{FA4E7661-F6C0-462B-AEA6-78EAE55C7324}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeApi.Domein", "Core\YoutubeApi.Domein\YoutubeApi.Domein.csproj", "{29EBDBD6-B93F-4135-B356-30945BE7BF28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YoutubeApi.Domein", "Core\YoutubeApi.Domein\YoutubeApi.Domein.csproj", "{29EBDBD6-B93F-4135-B356-30945BE7BF28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeApi.Application", "Core\YoutubeApi.Application\YoutubeApi.Application.csproj", "{D6198C60-7672-4A35-AF04-E6EE439EFC3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YoutubeApi.Application", "Core\YoutubeApi.Application\YoutubeApi.Application.csproj", "{D6198C60-7672-4A35-AF04-E6EE439EFC3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeApi.Infrastructure", "Infrastructure\YoutubeApi.Infrastructure\YoutubeApi.Infrastructure.csproj", "{CB61755E-BE57-4C20-A343-23FA70FAFFB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YoutubeApi.Infrastructure", "Infrastructure\YoutubeApi.Infrastructure\YoutubeApi.Infrastructure.csproj", "{CB61755E-BE57-4C20-A343-23FA70FAFFB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeApi.Persistence", "Infrastructure\YoutubeApi.Persistence\YoutubeApi.Persistence.csproj", "{BFB7F4B4-ED84-4A7D-8E04-450BC30C40D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YoutubeApi.Persistence", "Infrastructure\YoutubeApi.Persistence\YoutubeApi.Persistence.csproj", "{BFB7F4B4-ED84-4A7D-8E04-450BC30C40D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeApi.Api", "Persistence\YoutubeApi.Api\YoutubeApi.Api.csproj", "{473BCB18-A450-4626-81B8-E80325B75DE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YoutubeApi.Api", "Persistence\YoutubeApi.Api\YoutubeApi.Api.csproj", "{473BCB18-A450-4626-81B8-E80325B75DE3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "A.Notlar", "A.Notlar", "{3BD52E1B-8758-448C-8C47-2849938CA79A}"
+	ProjectSection(SolutionItems) = preProject
+		Notlar. = Notlar.
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
