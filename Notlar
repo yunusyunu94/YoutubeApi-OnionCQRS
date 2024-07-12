@@ -7,7 +7,18 @@ YoutubeApi.Domein :
 
 YoutubeApi.Persistence :
 
+- Bukatmana NugetPacket den sqlservercoru ve Microsoft.EntityFrameworkCore.Tools u kurmangerekiyor
+
 - Bogus Kutuphaneyi bu alana Nugetten yukledik
 
 - Configurasyonlarýn ve Vari tabaný alanlarýný tuttugumuz yer
+
+
+
+
+
+YoutubeApi.Api  :
+
+- Bu katmana Microsoft.EntityFrameworkCore.Design eklenicek
+
 

@@ -1,3 +1,7 @@
+
+//1
+using YoutubeApi.Persistence;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -21,6 +25,15 @@ builder.Configuration
 
 //------------------------------------------------------------------
 
+
+
+//------------------------------------------------------------------
+
+//1
+// Registation daki ismi verdik ama yukarýya usin olarak ekledik
+builder.Services.AddPersistance(builder.Configuration);
+
+//------------------------------------------------------------------
 
 
 
