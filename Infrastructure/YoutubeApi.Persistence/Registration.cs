@@ -16,13 +16,9 @@ namespace YoutubeApi.Persistence
 		{
 
 			services.AddDbContext<AppDbContext>(opt =>
-			{
-				opt.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
 
-			});
-				
-
-		
+				opt.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
+			
 		}
 	}
 }
