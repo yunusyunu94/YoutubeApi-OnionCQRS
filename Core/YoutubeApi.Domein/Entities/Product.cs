@@ -11,7 +11,7 @@ namespace YoutubeApi.Domein.Entities
 	{
         public required string Title { get; set; }
         public required string Derscription { get; set; }
-        public required int BranId { get; set; }
+        public required int BrandId { get; set; }
         public decimal Price { get; set; }
         public decimal Discount { get; set; } // İndirim olursa
         public Brand Brand { get; set; }
