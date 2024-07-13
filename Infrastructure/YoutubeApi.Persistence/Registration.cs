@@ -20,6 +20,8 @@ namespace YoutubeApi.Persistence
 				opt.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
 
 			});
+				
+
 		
 		}
 	}
