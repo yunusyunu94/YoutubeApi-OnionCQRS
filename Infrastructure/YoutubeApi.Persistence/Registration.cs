@@ -7,6 +7,8 @@ using System.Text;
 using System.Threading.Tasks;
 using YoutubeApi.Persistence.Context;
 using Microsoft.EntityFrameworkCore;
+using YoutubeApi.Persistence.Ripositories;
+using YoutubeApi.Application.İnterfaces.Repositories;
 
 namespace YoutubeApi.Persistence
 {
@@ -18,7 +20,11 @@ namespace YoutubeApi.Persistence
 			services.AddDbContext<AppDbContext>(opt =>
 
 				opt.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
-			
+
+			// ReadRepositor nin Dependency Injectionını gerceklestiricez
+
+			services.AddScoped(typeof(ReadRepository<>), typeof(ReadRepository<>));
+
 		}
 	}
 }
