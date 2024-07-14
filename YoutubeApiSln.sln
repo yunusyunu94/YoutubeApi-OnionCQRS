@@ -19,11 +19,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YoutubeApi.Persistence", "I
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YoutubeApi.Api", "Persistence\YoutubeApi.Api\YoutubeApi.Api.csproj", "{473BCB18-A450-4626-81B8-E80325B75DE3}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "A.Notlar", "A.Notlar", "{3BD52E1B-8758-448C-8C47-2849938CA79A}"
-	ProjectSection(SolutionItems) = preProject
-		Notlar. = Notlar.
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
