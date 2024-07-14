@@ -23,8 +23,8 @@ namespace YoutubeApi.Persistence
 
 			// ReadRepositor nin Dependency Injectionını gerceklestiricez
 
-			services.AddScoped(typeof(ReadRepository<>), typeof(ReadRepository<>));
-
+			services.AddScoped(typeof(IReadRepository<>), typeof(ReadRepository<>));
+			services.AddScoped(typeof(IWriteRepository<>), typeof(WriteRepository<>));
 		}
 	}
 }
