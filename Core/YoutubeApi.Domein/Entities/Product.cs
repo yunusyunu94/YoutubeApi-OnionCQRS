@@ -9,9 +9,9 @@ namespace YoutubeApi.Domein.Entities
 {
 	public class Product : EntityBase, IEntityBase // zaten EntityBase den miras alıyor yazmasakta olur
 	{
-        public required string Title { get; set; }
-        public required string Derscription { get; set; }
-        public required int BrandId { get; set; }
+        public string Title { get; set; }
+        public string Derscription { get; set; }
+        public int BrandId { get; set; }
         public decimal Price { get; set; }
         public decimal Discount { get; set; } // İndirim olursa
         public Brand Brand { get; set; }
